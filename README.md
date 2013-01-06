@@ -1,6 +1,6 @@
 # SimpleKM
 
-Very basic client for the KissMetrics API.
+Very basic (thread-safe) client for the KissMetrics API.
 
 ## Installation
 
@@ -18,8 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-  $ client = SimpleKM::Client.new(api_key: <your API key>, user_identifier: <user identifer>)
-  $ client.record("action", some: "data")
+    $ client = SimpleKM::Client.new(api_key: <your API key>, user_identifier: <user identifer>)
+    $ client.record("action", some: "data")
 
 ## Contributing
 
