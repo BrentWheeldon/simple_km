@@ -1,5 +1,7 @@
 # SimpleKM
 
+[![LicenseAudit Status](http://licenseaudit.pivotallabs.com/projects/7474062/badge)](http://licenseaudit.pivotallabs.com/projects/7474062)
+
 Very basic (thread-safe) client for the KissMetrics API.
 
 ## Installation
