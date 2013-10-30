@@ -1,0 +1,18 @@
+rvm:
+  - 2.0.0
+  - 1.9.3
+  - 1.9.2
+  - jruby-19mode
+  - rbx-19mode
+  - ruby-head
+  - jruby-head
+
+matrix:
+  allow_failures:
+    - rvm: rbx-head
+    - rvm: ruby-head
+    - rvm: jruby-head
+
+notifications:
+  email:
+    - brent.wheeldon@pivotallabs.com
